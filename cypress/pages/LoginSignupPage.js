@@ -15,7 +15,7 @@ class LoginSignupPage {
     verifyLoginFormVisible() {
     cy.contains('Login to your account').should('be.visible')
     }
-    
+
     enterLoginEmail(email) {
     cy.get('input[data-qa="login-email"]').type(email)
     }
@@ -26,6 +26,10 @@ class LoginSignupPage {
 
     clickLoginButton() {
     cy.get('button[data-qa="login-button"]').click()
+    }
+
+    verifyLoginErrorVisible() { 
+    cy.contains('Your email or password is incorrect!').should('be.visible')
     }
 }
 
