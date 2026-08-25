@@ -12,6 +12,21 @@ class LoginSignupPage {
         cy.get('button[data-qa="signup-button"]').click()
     }
 
+    verifyLoginFormVisible() {
+    cy.contains('Login to your account').should('be.visible')
+    }
+    
+    enterLoginEmail(email) {
+    cy.get('input[data-qa="login-email"]').type(email)
+    }
+
+    enterLoginPassword(password) {
+    cy.get('input[data-qa="login-password"]').type(password)
+    }
+
+    clickLoginButton() {
+    cy.get('button[data-qa="login-button"]').click()
+    }
 }
 
 export default new LoginSignupPage()

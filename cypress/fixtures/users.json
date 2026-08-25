@@ -17,5 +17,10 @@
         "city": "Los Angeles",
         "zipcode": "90001",
         "mobileNumber": "1234567890"
-    }
+    },
+    "existingUser": {
+        "email": "zainabdullah222046@gmail.com",
+        "password": "Zain222046!",
+        "firstName": "Zain"
+  }
 }
