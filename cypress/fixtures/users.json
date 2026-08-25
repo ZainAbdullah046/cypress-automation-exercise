@@ -19,9 +19,9 @@
         "mobileNumber": "1234567890"
     },
     "existingUser": {
-        "email": "zainabdullah222046@gmail.com",
-        "password": "Zain222046!",
-        "firstName": "Zain"
+        "email": "abdullah222046@gmail.com",
+        "password": "Zoha123",
+        "firstName": "Zoha"
   },
     "invalidUser": {
         "email": "zainabdullah222046@gmail.com",
