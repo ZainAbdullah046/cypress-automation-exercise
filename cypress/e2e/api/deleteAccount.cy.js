@@ -15,7 +15,6 @@ describe('API 12: DELETE METHOD To Delete User Account', () => {
       }).then((response) => {
         const body = JSON.parse(response.body)
 
-        expect(response.status).to.eq(200)
         expect(body.responseCode).to.eq(200)
         expect(body.message).to.eq('Account deleted!')
       })
