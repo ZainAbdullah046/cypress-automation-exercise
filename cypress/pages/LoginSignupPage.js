@@ -31,6 +31,10 @@ class LoginSignupPage {
     verifyLoginErrorVisible() { 
     cy.contains('Your email or password is incorrect!').should('be.visible')
     }
+
+    verifySignupErrorVisible() {
+    cy.contains('Email Address already exist!').should('be.visible')
+}
 }
 
 export default new LoginSignupPage()
