@@ -11,9 +11,16 @@ class HomePage {
     clickSignupLogin() {
         cy.contains('Signup / Login').click()
     }
+
+
     clickLogoutButton() {
         cy.contains('Logout').click()
   }
+
+    clickContactUs() {
+        cy.contains('Contact us').click()
+  }
+
 }
 
 export default new HomePage()

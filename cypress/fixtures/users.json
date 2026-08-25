@@ -26,5 +26,11 @@
     "invalidUser": {
         "email": "zainabdullah222046@gmail.com",
         "password": "Zain@123"
+    },
+    "contactForm": {
+        "name": "Zain Abdullah",
+        "email": "zain222046@gmail.com",
+        "subject": "Test Inquiry",
+        "message": "This is a test message for automation testing purposes."
 }
 }
