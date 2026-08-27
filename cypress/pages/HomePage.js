@@ -20,6 +20,9 @@ class HomePage {
     clickContactUs() {
         cy.contains('Contact us').click()
   }
+    clickTestCases() {
+        cy.contains('Test Cases').click()
+}
 
 }
 
