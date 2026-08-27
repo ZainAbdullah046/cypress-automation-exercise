@@ -23,6 +23,9 @@ class HomePage {
     clickTestCases() {
         cy.contains('Test Cases').click()
 }
+    clickProducts() {
+        cy.contains('Products').click()
+}
 
 }
 
