@@ -26,6 +26,25 @@ class HomePage {
     clickProducts() {
         cy.contains('Products').click()
 }
+     scrollToFooter() {
+        cy.get('#footer').scrollIntoView()
+  }
+
+     verifySubscriptionVisible() {
+        cy.contains('Subscription').should('be.visible')
+  }
+
+     enterSubscriptionEmail(email) {
+        cy.get('#susbscribe_email').type(email)
+  }
+
+     clickSubscribeButton() {
+        cy.get('#subscribe').click()
+  }
+
+     verifySubscriptionSuccess() {
+        cy.contains('You have been successfully subscribed!').should('be.visible')
+  }
 
 }
 
