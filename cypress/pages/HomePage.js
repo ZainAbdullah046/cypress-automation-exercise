@@ -45,6 +45,10 @@ class HomePage {
      verifySubscriptionSuccess() {
         cy.contains('You have been successfully subscribed!').should('be.visible')
   }
+  
+     clickCart() {
+        cy.contains('Cart').click()
+}
 
 }
 
