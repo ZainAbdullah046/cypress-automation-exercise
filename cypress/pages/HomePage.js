@@ -50,6 +50,10 @@ class HomePage {
         cy.contains('Cart').click()
 }
 
+scrollToTop() {
+  cy.scrollTo('top')
+}
+
 }
 
 export default new HomePage()
