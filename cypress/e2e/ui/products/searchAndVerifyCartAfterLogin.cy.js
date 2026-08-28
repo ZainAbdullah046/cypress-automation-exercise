@@ -3,7 +3,7 @@ import ProductsPage from '../../../pages/ProductsPage'
 import CartPage from '../../../pages/CartPage'
 import LoginSignupPage from '../../../pages/LoginSignupPage'
 
-describe('Test Case 20: Search Products and Verify Cart After Login', () => {
+describe('Test Case 15: Search Products and Verify Cart After Login', () => {
   it('adds searched products to cart and confirms they persist after login', () => {
     cy.fixture('users').then((data) => {
       const user = data.existingUser
