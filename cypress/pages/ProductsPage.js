@@ -28,8 +28,8 @@ class ProductsPage {
   })
 }
 
-  clickContinueShopping() {
-    cy.contains('Continue Shopping').click()
+ clickContinueShopping() {
+  cy.contains('Continue Shopping').click({ force: true })
 }
 
   clickViewCart() {

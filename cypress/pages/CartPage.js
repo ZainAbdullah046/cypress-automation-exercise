@@ -14,6 +14,14 @@ class CartPage {
   verifyProductTotal(productId, expectedTotal) {
     cy.get(`#product-${productId} .cart_total .cart_total_price`).should('contain.text', expectedTotal)
   }
+  verifyCartPageVisible() {
+    cy.url().should('include', '/view_cart')
+  }
+
+  removeProduct(productId) {
+    cy.get(`#product-${productId} .cart_quantity_delete`).click()
+  }
+
 }
 
 export default new CartPage()
