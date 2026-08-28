@@ -22,6 +22,20 @@ class CartPage {
     cy.get(`#product-${productId} .cart_quantity_delete`).click()
   }
 
+getProductNames() {
+  return cy.get('.cart_description h4').then(($els) => {
+    return $els.toArray().map((el) => el.innerText.trim())
+  })
+}
+
+verifyProductNamesInCart(expectedNames) {
+  this.getProductNames().then((namesInCart) => {
+    expectedNames.forEach((name) => {
+      expect(namesInCart).to.include(name)
+    })
+  })
+}
+
 }
 
 export default new CartPage()

@@ -48,6 +48,16 @@ verifyBrandPageVisible(brandName) {
   cy.get('.features_items').should('be.visible')
 }
 
+addSearchedProductToCartByIndex(index) {
+  cy.get('.features_items .product-image-wrapper').eq(index)
+    .trigger('mouseover')
+    .within(() => {
+      cy.contains('Add to cart').click({ force: true })
+    })
+
+  cy.contains('Added!').should('be.visible')
+}
+
 }
 
 export default new ProductsPage()
