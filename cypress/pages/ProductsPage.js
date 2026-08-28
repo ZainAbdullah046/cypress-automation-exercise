@@ -21,6 +21,20 @@ class ProductsPage {
   verifySearchedProductsVisible() {
     cy.contains('Searched Products').should('be.visible')
   }
+
+  addProductToCartByIndex(index) {
+    cy.get('.features_items .product-image-wrapper').eq(index).within(() => {
+    cy.contains('Add to cart').click({ force: true })
+  })
+}
+
+  clickContinueShopping() {
+    cy.contains('Continue Shopping').click()
+}
+
+  clickViewCart() {
+    cy.contains('View Cart').click()
+}
 }
 
 export default new ProductsPage()
