@@ -35,6 +35,19 @@ class ProductsPage {
   clickViewCart() {
     cy.contains('View Cart').click()
 }
+verifyBrandsVisible() {
+  cy.get('.brands_products').should('be.visible')
+}
+
+clickBrandByName(brandName) {
+  cy.get('.brands-name').contains(brandName).click()
+}
+
+verifyBrandPageVisible(brandName) {
+  cy.contains(`Brand - ${brandName} Products`).should('be.visible')
+  cy.get('.features_items').should('be.visible')
+}
+
 }
 
 export default new ProductsPage()
