@@ -1,62 +1,62 @@
 {
-    "newUser": {
-        "name": "Adil",
-        "email": "abdullah222046@gmail.com",
-        "password": "Zain@123",
-        "title": "Mr",
-        "day": "10",
-        "month": "5",
-        "year": "1995",
-        "firstName": "John",
-        "lastName": "Doe",
-        "company": "TestCorp",
-        "address1": "123 Main Street",
-        "address2": "Apt 4B",
-        "country": "United States",
-        "state": "California",
-        "city": "Los Angeles",
-        "zipcode": "90001",
-        "mobileNumber": "1234567890"
-    },
-    "existingUser": {
-        "email": "abdullah222046@gmail.com",
-        "password": "Zoha123",
-        "firstName": "Zoha"
+  "newUser": {
+    "name": "Adil",
+    "email": "abdullah222046@gmail.com",
+    "password": "Zain@123",
+    "title": "Mr",
+    "day": "10",
+    "month": "5",
+    "year": "1995",
+    "firstName": "John",
+    "lastName": "Doe",
+    "company": "TestCorp",
+    "address1": "123 Main Street",
+    "address2": "Apt 4B",
+    "country": "United States",
+    "state": "California",
+    "city": "Los Angeles",
+    "zipcode": "90001",
+    "mobileNumber": "1234567890"
   },
-    "invalidUser": {
-        "email": "zainabdullah222046@gmail.com",
-        "password": "Zain@123"
-    },
-    "contactForm": {
-        "name": "Zain Abdullah",
-        "email": "zain222046@gmail.com",
-        "subject": "Test Inquiry",
-        "message": "This is a test message for automation testing purposes."
-},"checkoutUser": {
-  "name": "batool",
-  "email": "dem20260829@example.com",
-  "password": "Checkout@123",
-  "title": "Mr",
-  "day": "15",
-  "month": "8",
-  "year": "1998",
-  "firstName": "Ahmed",
-  "lastName": "Khan",
-  "company": "DemoCorp",
-  "address1": "456 Checkout Lane",
-  "address2": "Suite 12",
-  "country": "United States",
-  "state": "Texas",
-  "city": "Houston",
-  "zipcode": "77001",
-  "mobileNumber": "9876543210"
-},
-"cardDetails": {
-  "nameOnCard": "Ahmed Khan",
-  "cardNumber": "4111111111111111",
-  "cvc": "456",
-  "expiryMonth": "10",
-  "expiryYear": "2029"
-}
-
+  "existingUser": {
+    "email": "abdullah222046@gmail.com",
+    "password": "Zoha123",
+    "firstName": "Zoha"
+  },
+  "invalidUser": {
+    "email": "zainabdullah222046@gmail.com",
+    "password": "Zain@123"
+  },
+  "contactForm": {
+    "name": "Zain Abdullah",
+    "email": "zain222046@gmail.com",
+    "subject": "Test Inquiry",
+    "message": "This is a test message for automation testing purposes."
+  },
+  "checkoutUser": {
+    "name": "batool",
+    "email": "dem20260829@example.com",
+    "password": "Checkout@123",
+    "title": "Mr",
+    "day": "15",
+    "month": "8",
+    "year": "1998",
+    "firstName": "Ahmed",
+    "lastName": "Khan",
+    "company": "DemoCorp",
+    "address1": "456 Checkout Lane",
+    "address2": "Suite 12",
+    "country": "United States",
+    "state": "Texas",
+    "city": "Houston",
+    "zipcode": "77001",
+    "mobileNumber": "9876543210"
+  },
+  "cardDetails": {
+    "nameOnCard": "Ahmed Khan",
+    "cardNumber": "4111111111111111",
+    "cvc": "456",
+    "expiryMonth": "10",
+    "expiryYear": "2029"
+  }
 }
