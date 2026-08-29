@@ -32,5 +32,31 @@
         "email": "zain222046@gmail.com",
         "subject": "Test Inquiry",
         "message": "This is a test message for automation testing purposes."
+},"checkoutUser": {
+  "name": "batool",
+  "email": "de20260829@example.com",
+  "password": "Checkout@123",
+  "title": "Mr",
+  "day": "15",
+  "month": "8",
+  "year": "1998",
+  "firstName": "Ahmed",
+  "lastName": "Khan",
+  "company": "DemoCorp",
+  "address1": "456 Checkout Lane",
+  "address2": "Suite 12",
+  "country": "United States",
+  "state": "Texas",
+  "city": "Houston",
+  "zipcode": "77001",
+  "mobileNumber": "9876543210"
+},
+"cardDetails": {
+  "nameOnCard": "Ahmed Khan",
+  "cardNumber": "4111111111111111",
+  "cvc": "456",
+  "expiryMonth": "10",
+  "expiryYear": "2029"
 }
+
 }
