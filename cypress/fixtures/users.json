@@ -34,7 +34,7 @@
         "message": "This is a test message for automation testing purposes."
 },"checkoutUser": {
   "name": "batool",
-  "email": "de20260829@example.com",
+  "email": "dem20260829@example.com",
   "password": "Checkout@123",
   "title": "Mr",
   "day": "15",
