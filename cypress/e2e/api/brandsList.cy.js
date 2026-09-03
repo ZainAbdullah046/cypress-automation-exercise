@@ -4,9 +4,9 @@ describe('API 3: Get All Brands List', () => {
       method: 'GET',
       url: '/api/brandsList'
     }).then((response) => {
-       expect(response.status).to.eq(200)
-       expect(body).to.have.property('brands')
-      cy.log('BODY:', JSON.stringify(response.body))
+      expect(response.status).to.eq(200)
+      expect(response.body).to.have.property('brands')
+      cy.log('BODY:', JSONr.stringify(response.body))
     })
   })
 })
