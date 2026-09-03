@@ -1,12 +1,15 @@
 describe('API 3: Get All Brands List', () => {
-  it('logs the actual brands response', () => {
+  it('returns all brands with status 200', () => {
     cy.request({
       method: 'GET',
       url: '/api/brandsList'
     }).then((response) => {
+      const body = JSON.parse(response.body)
+
       expect(response.status).to.eq(200)
-      expect(response.body).to.have.property('brands')
-      cy.log('BODY:', JSONr.stringify(response.body))
+      expect(body.responseCode).to.eq(200)
+      expect(body).to.have.property('brands')
+      expect(body.brands).to.be.an('array')
     })
   })
 })
