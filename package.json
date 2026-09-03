@@ -4,7 +4,10 @@
   "description": "",
   "main": "index.js",
   "scripts": {
-    "test": "echo \"Error: no test specified\" && exit 1"
+    "test": "cypress run",
+    "cypress:open": "cypress open",
+    "cypress:run": "cypress run",
+    "test:placeOrder": "cypress run --browser chrome --spec cypress/e2e/ui/checkout/placeOrder.cy.js"
   },
   "keywords": [],
   "author": "",
